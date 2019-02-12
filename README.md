@@ -22,7 +22,7 @@ Faça um fork deste projeto, siga as instruções de desenvolvimento abaixo, apl
 
 ## O que devo utilizar?
 
-Nós acreditamos que bons desenvolvedores não são apenas usuários de linguagens ou de frameworks e que estão sempre preparados o dinamismo. Utilize oque lhe deixar mais confortável e nos mostre seu potencial.
+Nós acreditamos que bons desenvolvedores não são apenas usuários de linguagens ou de frameworks e que estão sempre preparados ao dinamismo. Utilize oque lhe deixar mais confortável e nos mostre seu potencial.
 
 Bom, não se apegue a essa questão, mas se estiver curioso à respeito de que utilizamos aqui no nosso dia à dia, segue a relação das principais.
 
