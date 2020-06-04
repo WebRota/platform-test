@@ -1,4 +1,4 @@
-## ![logo](https://www.webrota.com.br/assets/images/logo.png)   
+## ![logo](https://www.webrota.com.br/assets/img/logo-min.png)   
 
 Hey! Seja bem vindo, este é o playground de criatividade da **WebRota**, esse repositório é nossa porta de entrada.
 
