@@ -18,7 +18,7 @@ Faça um fork deste projeto, siga as instruções de desenvolvimento abaixo, apl
 - Deixe sua aplicação preparada para containers.
 - Faça sua aplicação atualizar as posições de forma temporizada através do parsing da url de raw do json deste repositório.
 - Exiba a soma da distância dos pontos renderizados.
-- Permita a criação de pontos novos pontos no mapa. 
+- Permita a criação de novos pontos no mapa. 
 
 ## O que devo utilizar?
 
