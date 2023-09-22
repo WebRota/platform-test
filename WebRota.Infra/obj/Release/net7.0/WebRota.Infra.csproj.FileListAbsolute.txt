@@ -1,0 +1,17 @@
+C:\Users\willi\Documents\GitHub\platform-test\WebRota.Infra\bin\Release\net7.0\WebRota.Infra.deps.json
+C:\Users\willi\Documents\GitHub\platform-test\WebRota.Infra\bin\Release\net7.0\WebRota.Infra.runtimeconfig.json
+C:\Users\willi\Documents\GitHub\platform-test\WebRota.Infra\bin\Release\net7.0\WebRota.Infra.dll
+C:\Users\willi\Documents\GitHub\platform-test\WebRota.Infra\bin\Release\net7.0\WebRota.Infra.pdb
+C:\Users\willi\Documents\GitHub\platform-test\WebRota.Infra\bin\Release\net7.0\WebRota.Domain.dll
+C:\Users\willi\Documents\GitHub\platform-test\WebRota.Infra\bin\Release\net7.0\WebRota.Domain.pdb
+C:\Users\willi\Documents\GitHub\platform-test\WebRota.Infra\obj\Release\net7.0\WebRota.Infra.csproj.AssemblyReference.cache
+C:\Users\willi\Documents\GitHub\platform-test\WebRota.Infra\obj\Release\net7.0\WebRota.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\willi\Documents\GitHub\platform-test\WebRota.Infra\obj\Release\net7.0\WebRota.Infra.AssemblyInfoInputs.cache
+C:\Users\willi\Documents\GitHub\platform-test\WebRota.Infra\obj\Release\net7.0\WebRota.Infra.AssemblyInfo.cs
+C:\Users\willi\Documents\GitHub\platform-test\WebRota.Infra\obj\Release\net7.0\WebRota.Infra.csproj.CoreCompileInputs.cache
+C:\Users\willi\Documents\GitHub\platform-test\WebRota.Infra\obj\Release\net7.0\WebRota.Infra.csproj.CopyComplete
+C:\Users\willi\Documents\GitHub\platform-test\WebRota.Infra\obj\Release\net7.0\WebRota.Infra.dll
+C:\Users\willi\Documents\GitHub\platform-test\WebRota.Infra\obj\Release\net7.0\refint\WebRota.Infra.dll
+C:\Users\willi\Documents\GitHub\platform-test\WebRota.Infra\obj\Release\net7.0\WebRota.Infra.pdb
+C:\Users\willi\Documents\GitHub\platform-test\WebRota.Infra\obj\Release\net7.0\WebRota.Infra.genruntimeconfig.cache
+C:\Users\willi\Documents\GitHub\platform-test\WebRota.Infra\obj\Release\net7.0\ref\WebRota.Infra.dll

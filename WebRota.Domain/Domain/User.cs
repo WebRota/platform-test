@@ -14,17 +14,19 @@ namespace WebRota.Domain.Entities
 
         public string Name { get; set; }
 
+        [RegularExpression(@"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$", ErrorMessage = "E-mail invalido!")]
 
         public string Email { get; set; }
 
-        [Required(ErrorMessage = "Este Campo é Obrigatorio!")]
+        [Required(ErrorMessage = "A senha é obrigatoria!")]
         public string Password { get; set; }
 
         public string Role { get; set; }
 
         public string Phone { get; set; }
 
-        public string cpf { get; set; }
+        [RegularExpression(@"^\d{11}$", ErrorMessage = "CPF inválido. Deve conter 11 dígitos numéricos.")]
+        public string CPF { get; set; }
 
     }
 }
