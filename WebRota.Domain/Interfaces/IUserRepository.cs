@@ -9,6 +9,7 @@ namespace WebRota.Domain.Interfaces
 {
     public interface IUserRepository
     {
+        User login(string email, string password);
         User Save(User user);
         User Update(User user);
         User Get(long id);

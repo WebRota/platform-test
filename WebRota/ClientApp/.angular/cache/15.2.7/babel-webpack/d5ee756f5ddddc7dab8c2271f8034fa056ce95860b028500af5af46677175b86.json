@@ -1,0 +1,1 @@
+{"ast":null,"code":"export const environment = {\n  production: true,\n  MAPA_TILE_LAYER: 'https://maps.heigit.org/openmapsurfer/tiles/roads/webmercator/{z}/{x}/{y}.png',\n  API_URL_BASE: 'http://localhost:3002/api/',\n  API_KEY: '41bd5d8a8433449c72ac1b3abf02f0ca'\n};","map":null,"metadata":{},"sourceType":"module","externalDependencies":[]}

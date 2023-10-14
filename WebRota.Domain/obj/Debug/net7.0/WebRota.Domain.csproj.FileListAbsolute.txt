@@ -12,3 +12,17 @@ C:\Users\willi\Documents\GitHub\platform-test\WebRota.Domain\obj\Debug\net7.0\We
 C:\Users\willi\Documents\GitHub\platform-test\WebRota.Domain\obj\Debug\net7.0\ref\WebRota.Domain.dll
 C:\Users\willi\Documents\GitHub\platform-test\WebRota.Domain\bin\Debug\net7.0\WebRota.Domain.runtimeconfig.json
 C:\Users\willi\Documents\GitHub\platform-test\WebRota.Domain\obj\Debug\net7.0\WebRota.Domain.genruntimeconfig.cache
+C:\Users\willi\Documents\GitHub\platform-testdddddd\WebRota.Domain\bin\Debug\net7.0\WebRota.Domain.deps.json
+C:\Users\willi\Documents\GitHub\platform-testdddddd\WebRota.Domain\bin\Debug\net7.0\WebRota.Domain.runtimeconfig.json
+C:\Users\willi\Documents\GitHub\platform-testdddddd\WebRota.Domain\bin\Debug\net7.0\WebRota.Domain.dll
+C:\Users\willi\Documents\GitHub\platform-testdddddd\WebRota.Domain\bin\Debug\net7.0\WebRota.Domain.pdb
+C:\Users\willi\Documents\GitHub\platform-testdddddd\WebRota.Domain\obj\Debug\net7.0\WebRota.Domain.csproj.AssemblyReference.cache
+C:\Users\willi\Documents\GitHub\platform-testdddddd\WebRota.Domain\obj\Debug\net7.0\WebRota.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\willi\Documents\GitHub\platform-testdddddd\WebRota.Domain\obj\Debug\net7.0\WebRota.Domain.AssemblyInfoInputs.cache
+C:\Users\willi\Documents\GitHub\platform-testdddddd\WebRota.Domain\obj\Debug\net7.0\WebRota.Domain.AssemblyInfo.cs
+C:\Users\willi\Documents\GitHub\platform-testdddddd\WebRota.Domain\obj\Debug\net7.0\WebRota.Domain.csproj.CoreCompileInputs.cache
+C:\Users\willi\Documents\GitHub\platform-testdddddd\WebRota.Domain\obj\Debug\net7.0\WebRota.Domain.dll
+C:\Users\willi\Documents\GitHub\platform-testdddddd\WebRota.Domain\obj\Debug\net7.0\refint\WebRota.Domain.dll
+C:\Users\willi\Documents\GitHub\platform-testdddddd\WebRota.Domain\obj\Debug\net7.0\WebRota.Domain.pdb
+C:\Users\willi\Documents\GitHub\platform-testdddddd\WebRota.Domain\obj\Debug\net7.0\WebRota.Domain.genruntimeconfig.cache
+C:\Users\willi\Documents\GitHub\platform-testdddddd\WebRota.Domain\obj\Debug\net7.0\ref\WebRota.Domain.dll

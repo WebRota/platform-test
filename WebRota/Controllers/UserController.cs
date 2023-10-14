@@ -15,7 +15,37 @@ namespace WebRota.Controllers
             _userRepository = userRepository;
         }
         [HttpPost]
+        [Route("login")]
+        [AllowAnonymous]
+        public async Task<ActionResult<dynamic>> Authenticate([FromQuery]string email, [FromQuery]string password)
+        {
+            try
+            {
+                var user = _userRepository.login(email, password);
+
+                if (user == null)
+                    return BadRequest(new { message = "Usuário ou senha inválidos" });
+
+                var token = user.GenerateToken();
+                user.Password = "";
+                return new
+                {
+                    token = token
+                };
+            }
+            catch(Exception ex)
+            {
+                return BadRequest(new { message = "Algo deu errado, tente mais tarde!" });
+            }
+            
+        }
+
+
+
+
+        [HttpPost]
         [Route("")]
+        [AllowAnonymous]
         public async Task<ActionResult<User>> Save( [FromBody] User model)
         {
             try

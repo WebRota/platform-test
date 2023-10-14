@@ -1,4 +1,5 @@
-﻿using WebRota.Domain.Entities;
+﻿using Microsoft.EntityFrameworkCore;
+using WebRota.Domain.Entities;
 using WebRota.Domain.Interfaces;
 using WebRota.Infra.Context;
 
@@ -79,6 +80,20 @@ namespace WebRota.Infra.Repositories
                 _context.Users.Remove(User);
                 _context.SaveChanges();
                 return "Sucesso ao remover usuario";
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public User login(string email, string password)
+        {
+            try
+            {
+                var user = _context.Users
+                    .FirstOrDefault(x => x.Email == email && x.Password == password);
+                return user;
             }
             catch (Exception ex)
             {
