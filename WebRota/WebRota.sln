@@ -5,9 +5,9 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebRota.Web", "WebRota.Web.csproj", "{FE45198A-6CD5-4E29-A0C1-F705FEAD95C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebRota.Domain", "..\WebRota.Domain\WebRota.Domain.csproj", "{36BF0FA5-8D1D-4A45-8417-237B690F4435}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebRota.Domain", "..\WebRota.Domain\WebRota.Domain.csproj", "{36BF0FA5-8D1D-4A45-8417-237B690F4435}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebRota.Infra", "..\WebRota.Infra\WebRota.Infra.csproj", "{B54CBD32-8225-47DB-AC89-2E5EE46AE17D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebRota.Infra", "..\WebRota.Infra\WebRota.Infra.csproj", "{B54CBD32-8225-47DB-AC89-2E5EE46AE17D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
