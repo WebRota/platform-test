@@ -1,57 +1,38 @@
-# Use the official .NET SDK image as a parent image
-FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
+#See https://aka.ms/customizecontainer to learn how to customize your debug container and how Visual Studio uses this Dockerfile to build your images for faster debugging.
 
-# Set the working directory in the container
+FROM mcr.microsoft.com/dotnet/aspnet:7.0  as base
 WORKDIR /app
+EXPOSE 80
+EXPOSE 443
+
+FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
+WORKDIR /src
+# COPY ["WebRota.Web.csproj", "."]
+# RUN dotnet restore "./WebRota.Web.csproj"
 
 # Copy the .csproj files and restore any dependencies (NuGet packages) for a .NET application
 COPY ./WebRota.Domain/WebRota.Domain.csproj ./WebRota.Domain/
 COPY ./WebRota.Infra/WebRota.Infra.csproj ./WebRota.Infra/
-COPY ./WebRota/WebRota.web.csproj ./WebRota/
+COPY ./WebRota.Web/WebRota.Web.csproj ./WebRota.Web/
 RUN dotnet restore ./WebRota.Domain/WebRota.Domain.csproj
 RUN dotnet restore ./WebRota.Infra/WebRota.Infra.csproj
-RUN dotnet restore ./WebRota/WebRota.web.csproj
+RUN dotnet restore ./WebRota.Web/WebRota.Web.csproj
 
 # Copy the remaining source code for the .NET application
 COPY ./WebRota.Domain ./WebRota.Domain/
 COPY ./WebRota.Infra ./WebRota.Infra/
-COPY ./WebRota ./WebRota/
+COPY ./WebRota.Web ./WebRota.Web/
 
-# Build the .NET application
-RUN dotnet publish WebRota/WebRota.web.csproj -c Release -o out
 
-# Create a temporary stage for the Node.js application
-# FROM node AS node
 
-# Set the working directory for the Node.js application
-# WORKDIR /nodeapp
+COPY . .
+WORKDIR "/src/."
+RUN dotnet build "WebRota.Web/WebRota.Web.csproj" -c Release -o /app/build
 
-# Copy the package.json and package-lock.json files to the Node.js container
-#COPY ./WebRota/ClientApp/package*.json ./
+FROM build AS publish
+RUN dotnet publish "WebRota.Web/WebRota.Web.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
-# Install npm dependencies for the Node.js application
-#RUN npm install
-
-# Copy the remaining source code for the Node.js application
-#COPY ./WebRota ./
-
-# Build the .NET application
-#RUN npm run build
-
-# Use a lighter-weight runtime image for the final image
-FROM mcr.microsoft.com/dotnet/aspnet:7.0 AS runtime
-
-# Set the working directory in the container
+FROM base AS final
 WORKDIR /app
-
-# Copy the published .NET application to the runtime image
-#COPY --from=build /app/out ./
-
-# Copy the Node.js application to the runtime image
-#COPY --from=node /WebRota/ClientApp/ ./wwwroot
-
-# Expose a port that the application will listen on
-EXPOSE 80
-
-# Define the entry point for the application
+COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "WebRota.Web.dll"]

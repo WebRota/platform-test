@@ -1,9 +1,9 @@
 version: '3'
 services:
-  sql-server:
+  sql-server-1:
     image: mcr.microsoft.com/mssql/server
     environment:
-      SA_PASSWORD: YourStrongPassword
+      SA_PASSWORD: Willian!@Cavalo125Ra
       ACCEPT_EULA: Y
       MSSQL_SA_PASSWORD: Willian!@Cavalo125Ra  # Senha SA personalizada
       MSSQL_PID: Developer
@@ -13,12 +13,12 @@ services:
       MSSQL_TCP_PORT: 1433
     ports:
       - "1433:1433"
-  node-app:
-    build:
-      context: ./WebRota/ClientApp/
-      dockerfile: Dockerfile.node  # Caminho relativo ao docker-compose.yml
-    ports:
-      - "3000:3000"
+  # node-app:
+  #   build:
+  #     context: ./WebRota/ClientApp/
+  #     dockerfile: Dockerfile.node  # Caminho relativo ao docker-compose.yml
+  #   ports:
+  #     - "3000:3000"
   aspnet-app:
     build:
       context: .
@@ -26,4 +26,4 @@ services:
     ports:
       - "80:80"
     depends_on:
-      - sql-server
+      - sql-server-1

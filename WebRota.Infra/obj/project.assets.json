@@ -2938,24 +2938,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\willi\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\willi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\willi\\Documents\\GitHub\\platform-test\\WebRota.Infra\\WebRota.Infra.csproj",
+      "projectUniqueName": "C:\\Users\\willi\\Downloads\\platform-test-map\\platform-test-map\\WebRota.Infra\\WebRota.Infra.csproj",
       "projectName": "WebRota.Infra",
-      "projectPath": "C:\\Users\\willi\\Documents\\GitHub\\platform-test\\WebRota.Infra\\WebRota.Infra.csproj",
+      "projectPath": "C:\\Users\\willi\\Downloads\\platform-test-map\\platform-test-map\\WebRota.Infra\\WebRota.Infra.csproj",
       "packagesPath": "C:\\Users\\willi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\willi\\Documents\\GitHub\\platform-test\\WebRota.Infra\\obj\\",
+      "outputPath": "C:\\Users\\willi\\Downloads\\platform-test-map\\platform-test-map\\WebRota.Infra\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
         "C:\\Users\\willi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2969,8 +2964,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\willi\\Documents\\GitHub\\platform-test\\WebRota.Domain\\WebRota.Domain.csproj": {
-              "projectPath": "C:\\Users\\willi\\Documents\\GitHub\\platform-test\\WebRota.Domain\\WebRota.Domain.csproj"
+            "C:\\Users\\willi\\Downloads\\platform-test-map\\platform-test-map\\WebRota.Domain\\WebRota.Domain.csproj": {
+              "projectPath": "C:\\Users\\willi\\Downloads\\platform-test-map\\platform-test-map\\WebRota.Domain\\WebRota.Domain.csproj"
             }
           }
         }
@@ -3016,7 +3011,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
