@@ -1,41 +1,39 @@
-## ![logo](https://www.webrota.com.br/assets/img/logo-min.png)   
+# README - Projeto de Rastreamento de Rotas
 
-Hey! Seja bem vindo, este é o playground de criatividade da **WebRota**, esse repositório é nossa porta de entrada.
+Este projeto consiste na criação de uma aplicação simples que se conecta a um banco de dados SQL Server e implementa recursos de autenticação de usuários. A aplicação utiliza um arquivo chamado `positions.json`, disponível neste repositório, para renderizar um mapa. Além disso, a aplicação cria marcadores em cada coordenada contida no JSON, permitindo a visualização de um trajeto cronológico. A aplicação rodar execução em containers.
 
-## Como funciona?
+## Instruções para Execução
 
-Faça um fork deste projeto, siga as instruções de desenvolvimento abaixo, aplique sua criatividade e suas técnicas ninja e nos mostre seu código. 
+Para rodar o projeto, siga os passos abaixo:
 
-## O que fazer?
+1. Certifique-se de ter o Docker e o Docker Compose instalados em seu ambiente.
 
-- Crie uma aplicação simples com conexão à um banco de sua escolha.
-- Implemente autenticação e coloque os usuários no banco.
-- Utilize o arquivo **positions.json** contido nesse repositório e faça um mapa através da API de sua escolha para renderiza-lo, criando marcadores em cada coordenada contida no JSON. Esse arquivo contém uma lista de coordenadas de um trajeto cronológico, seria muito interessante a renderização de uma linha polígono unindo-as.
-- Documente seu código e as instruções de como executa-lo.
+2. No terminal, navegue até a raiz do projeto e execute os seguintes comandos:
 
-### Bônus level
+   ```bash
+   docker-compose build
+   docker-compose up
+   ```
 
-- Deixe sua aplicação preparada para containers.
-- Faça sua aplicação atualizar as posições de forma temporizada através do parsing da url de raw do json deste repositório.
-- Exiba a soma da distância dos pontos renderizados.
-- Permita a criação de novos pontos no mapa. 
+3. Aguarde a construção e inicialização dos containers. Uma vez concluído, a aplicação estará disponível para acesso.
 
-## O que devo utilizar?
+## Estrutura do Projeto
 
-Nós acreditamos que bons desenvolvedores não são apenas usuários de linguagens ou de frameworks e que estão sempre preparados ao dinamismo. Utilize oque lhe deixar mais confortável e nos mostre seu potencial.
+- A pasta `ClientApp` contém o frontend da aplicação desenvolvido em Angular.
+- A pasta `WebRota.Web` contém os controladores da aplicação.
+- A pasta `WebRota.Domain` contém os objetos e regras de negócio da aplicação.
+- A pasta `WebRota.Infra` é responsável pelo acesso ao banco de dados SQL Server. Não se preocupe, a aplicação .NET criará as tabelas necessárias automaticamente para funcionar no container SQL.
 
-Bom, não se apegue a essa questão, mas se estiver curioso à respeito de que utilizamos aqui no nosso dia à dia, segue a relação das principais.
+## Tecnologias Utilizadas
 
-- Python 3+
-- Flask + Marshmallow
-- Bootstrap 4
-- Angular 7
-- MySQL + Redis + RabbitMQ
+- Banco de Dados: SQL Server, roda na porta: 1433
+- Backend: ASP.NET Core 7 com a arquitetura DDD (Domain-Driven Design), roda na porta: 80
+- Frontend: Angular, com a biblioteca Leaflet para exibição das coordenadas no mapa, roda na porta: 4200
 
-## E agora?
+## Funcionalidades
 
-Tudo pronto! Faça um pull request ou nos notifique do fork através do e-mail mauro@webrota.com.br
-
-Vem com a gente! 
-
-:)
+- Visualização do trajeto cronológico no mapa, com marcadores nas coordenadas.
+- Preparação da aplicação para execução em containers.
+- Salvar usuarios e efetuar login com autentificação
+- Exibição da soma da distância entre os pontos renderizados.
+- Possibilidade de adicionar novos pontos ao mapa.
