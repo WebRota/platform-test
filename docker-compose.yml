@@ -1,4 +1,3 @@
-version: '3'
 services:
   sql-server-1:
     image: mcr.microsoft.com/mssql/server
@@ -13,12 +12,13 @@ services:
       MSSQL_TCP_PORT: 1433
     ports:
       - "1433:1433"
-  # node-app:
-  #   build:
-  #     context: ./WebRota/ClientApp/
-  #     dockerfile: Dockerfile.node  # Caminho relativo ao docker-compose.yml
-  #   ports:
-  #     - "3000:3000"
+  node-app:
+    build:
+      context: ./ClientApp
+      target: builder
+      dockerfile: Dockerfile.node  # Caminho relativo ao docker-compose.yml
+    ports:
+      - 4200:4200
   aspnet-app:
     build:
       context: .
