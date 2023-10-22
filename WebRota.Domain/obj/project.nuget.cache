@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "C+rvnKw8IHDX+fGFDmYeXLvw5w04BnFoqxcWeLCAi1hQKAggqtvankpeAImQmz9VBXiCpExPdkRfb/L5c+c6fw==",
+  "dgSpecHash": "yLFkTM5A0sjm5pM1T52pRexrQmgHjLLWrRxsmTSR9QmBpgYRkoTZkDvus6MprSuM7TpXgMps0cre3MRhbpmGuw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\willi\\Documents\\GitHub\\platform-test\\WebRota.Domain\\WebRota.Domain.csproj",
+  "projectFilePath": "C:\\Users\\willi\\Downloads\\platform-test-map\\platform-test-map\\WebRota.Domain\\WebRota.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\willi\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\willi\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.11\\microsoft.aspnetcore.authentication.jwtbearer.7.0.11.nupkg.sha512",

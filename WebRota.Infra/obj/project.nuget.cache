@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1Hb6lMPjbQ/fEUy4hu2+yijabKATaxBVJBRzlwIe+n4DYOh+r0BZmNL+FqcTbx/bvvMs0prAMXzNcF2C3NiHng==",
+  "dgSpecHash": "TmqnFTC1LHxybIvxK84/31lAnHbRN8jWsIjrqz9ymDnCOpXWzrGiIvuLkXIaaFwrOjLFTUDqIW66u89q3f+sXw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\willi\\Documents\\GitHub\\platform-test\\WebRota.Infra\\WebRota.Infra.csproj",
+  "projectFilePath": "C:\\Users\\willi\\Downloads\\platform-test-map\\platform-test-map\\WebRota.Infra\\WebRota.Infra.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\willi\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\willi\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

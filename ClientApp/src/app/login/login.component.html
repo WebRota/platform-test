@@ -1,0 +1,21 @@
+<div class="registration-form">
+  <h2>Login</h2>
+  <form (ngSubmit)="login()">
+
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" id="email" [(ngModel)]="email" name="email" class="form-control" required>
+    </div>
+
+    <div class="form-group">
+      <label for="password">Senha:</label>
+      <input type="password" id="password" [(ngModel)]="password" name="password" class="form-control" required>
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary" style="margin: 5px;">Logar</button>
+    <button type="button" class="btn btn-secondary" (click)="goToCadastroPage()">Cadastrar</button>
+
+  </form>
+</div>
+<p class="error-message" style="color: red; font-weight: bold; font-size: 16px;">{{message}}</p>
+
