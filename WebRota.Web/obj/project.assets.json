@@ -3047,19 +3047,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\willi\\.nuget\\packages\\": {}
+    "C:\\Users\\willian\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\willi\\Downloads\\platform-test-map\\platform-test-map\\WebRota.Web\\WebRota.Web.csproj",
+      "projectUniqueName": "C:\\Users\\willian\\source\\repos\\GeoLogApp\\WebRota.Web\\WebRota.Web.csproj",
       "projectName": "WebRota.Web",
-      "projectPath": "C:\\Users\\willi\\Downloads\\platform-test-map\\platform-test-map\\WebRota.Web\\WebRota.Web.csproj",
-      "packagesPath": "C:\\Users\\willi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\willi\\Downloads\\platform-test-map\\platform-test-map\\WebRota.Web\\obj\\",
+      "projectPath": "C:\\Users\\willian\\source\\repos\\GeoLogApp\\WebRota.Web\\WebRota.Web.csproj",
+      "packagesPath": "C:\\Users\\willian\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\willian\\source\\repos\\GeoLogApp\\WebRota.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\willi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\willian\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3073,11 +3073,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\willi\\Downloads\\platform-test-map\\platform-test-map\\WebRota.Domain\\WebRota.Domain.csproj": {
-              "projectPath": "C:\\Users\\willi\\Downloads\\platform-test-map\\platform-test-map\\WebRota.Domain\\WebRota.Domain.csproj"
+            "C:\\Users\\willian\\source\\repos\\GeoLogApp\\WebRota.Domain\\WebRota.Domain.csproj": {
+              "projectPath": "C:\\Users\\willian\\source\\repos\\GeoLogApp\\WebRota.Domain\\WebRota.Domain.csproj"
             },
-            "C:\\Users\\willi\\Downloads\\platform-test-map\\platform-test-map\\WebRota.Infra\\WebRota.Infra.csproj": {
-              "projectPath": "C:\\Users\\willi\\Downloads\\platform-test-map\\platform-test-map\\WebRota.Infra\\WebRota.Infra.csproj"
+            "C:\\Users\\willian\\source\\repos\\GeoLogApp\\WebRota.Infra\\WebRota.Infra.csproj": {
+              "projectPath": "C:\\Users\\willian\\source\\repos\\GeoLogApp\\WebRota.Infra\\WebRota.Infra.csproj"
             }
           }
         }
@@ -3128,7 +3128,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

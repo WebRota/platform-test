@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\willi\\Downloads\\platform-test-map\\platform-test-map\\WebRota.Domain\\WebRota.Domain.csproj": {}
+    "C:\\Users\\willian\\source\\repos\\GeoLogApp\\WebRota.Domain\\WebRota.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\willi\\Downloads\\platform-test-map\\platform-test-map\\WebRota.Domain\\WebRota.Domain.csproj": {
+    "C:\\Users\\willian\\source\\repos\\GeoLogApp\\WebRota.Domain\\WebRota.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\willi\\Downloads\\platform-test-map\\platform-test-map\\WebRota.Domain\\WebRota.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\willian\\source\\repos\\GeoLogApp\\WebRota.Domain\\WebRota.Domain.csproj",
         "projectName": "WebRota.Domain",
-        "projectPath": "C:\\Users\\willi\\Downloads\\platform-test-map\\platform-test-map\\WebRota.Domain\\WebRota.Domain.csproj",
-        "packagesPath": "C:\\Users\\willi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\willi\\Downloads\\platform-test-map\\platform-test-map\\WebRota.Domain\\obj\\",
+        "projectPath": "C:\\Users\\willian\\source\\repos\\GeoLogApp\\WebRota.Domain\\WebRota.Domain.csproj",
+        "packagesPath": "C:\\Users\\willian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\willian\\source\\repos\\GeoLogApp\\WebRota.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\willi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\willian\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -67,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -2938,19 +2938,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\willi\\.nuget\\packages\\": {}
+    "C:\\Users\\willian\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\willi\\Downloads\\platform-test-map\\platform-test-map\\WebRota.Infra\\WebRota.Infra.csproj",
+      "projectUniqueName": "C:\\Users\\willian\\source\\repos\\GeoLogApp\\WebRota.Infra\\WebRota.Infra.csproj",
       "projectName": "WebRota.Infra",
-      "projectPath": "C:\\Users\\willi\\Downloads\\platform-test-map\\platform-test-map\\WebRota.Infra\\WebRota.Infra.csproj",
-      "packagesPath": "C:\\Users\\willi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\willi\\Downloads\\platform-test-map\\platform-test-map\\WebRota.Infra\\obj\\",
+      "projectPath": "C:\\Users\\willian\\source\\repos\\GeoLogApp\\WebRota.Infra\\WebRota.Infra.csproj",
+      "packagesPath": "C:\\Users\\willian\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\willian\\source\\repos\\GeoLogApp\\WebRota.Infra\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\willi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\willian\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2964,8 +2964,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\willi\\Downloads\\platform-test-map\\platform-test-map\\WebRota.Domain\\WebRota.Domain.csproj": {
-              "projectPath": "C:\\Users\\willi\\Downloads\\platform-test-map\\platform-test-map\\WebRota.Domain\\WebRota.Domain.csproj"
+            "C:\\Users\\willian\\source\\repos\\GeoLogApp\\WebRota.Domain\\WebRota.Domain.csproj": {
+              "projectPath": "C:\\Users\\willian\\source\\repos\\GeoLogApp\\WebRota.Domain\\WebRota.Domain.csproj"
             }
           }
         }
@@ -3011,7 +3011,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

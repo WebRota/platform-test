@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebRota.Infra
-build_property.ProjectDir = C:\Users\willi\Downloads\platform-test-map\platform-test-map\WebRota.Infra\
+build_property.ProjectDir = C:\Users\willian\source\repos\GeoLogApp\WebRota.Infra\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

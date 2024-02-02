@@ -18,7 +18,7 @@ namespace WebRota.Controllers
         [Route("login")]
         [AllowAnonymous]
         public async Task<ActionResult<dynamic>> Authenticate([FromQuery] string email, [FromQuery] string password)
-        {
+        { 
             try
             {
                 var user = _userRepository.login(email, password);
